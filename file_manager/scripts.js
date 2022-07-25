@@ -1,7 +1,3 @@
-//хранилище файлов
-// import {treeObject} from './tree.js'
-
-// console.log(treeObject)
 
 //счетчик для присваивания id новым элементам
 var id_counter = 1000;
