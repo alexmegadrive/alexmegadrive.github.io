@@ -1,3 +1,7 @@
+//хранилище файлов
+// import {treeObject} from './tree.js'
+
+// console.log(treeObject)
 
 //счетчик для присваивания id новым элементам
 var id_counter = 1000;
@@ -59,8 +63,8 @@ window.treeOpenFunc = function(event){
                 let fileContentRef = document.querySelector('.main__file_content')
                                                                     //создание правой панели
                 fileContentRef.innerHTML = (`<div id="editor__elem_block">          
-                выбрана папка 
-                <span id="editor__elem_name">${element.name}</span>
+                
+                <span id="editor__elem_name" class="treeItem_Folder">${element.name}</span>
                 </br>
                 <input type="button" class="button_file" value="Изменить описание" onclick="changeDescription()">
                 </div>`);
@@ -88,7 +92,7 @@ window.treeOpenFunc = function(event){
                 editorRef.appendChild(buttonFileInput);
                                                                                     //создание правой панели
                 editorRef.innerHTML = (`<div id="editor__elem_block">
-                выбран файл <span id="editor__elem_name">${element.name}</span>
+                <span id="editor__elem_name" class="treeItem_File">${element.name}</span>
                 </br>
                 <input type="button" class="button_file" value="Изменить описание" onclick="changeDescription()">
                 <button class="button_file" onclick="document.getElementById('input-file').click()">Загрузить TXT в редактор</button>
