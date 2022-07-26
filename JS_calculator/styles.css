@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    /* background-color: #047c7c; */
+}
+
+header {
+    /* height: 70px; */
+    min-height: 41px;
+    background-color: #1a376a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+
+}
+
+main {
+/*    display: flex;*/
+/*flex: 1;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 30px;*/
+    background: #047c7c;
+    flex: 1;
+    position: relative;
+    display: flex;
+   
+
+}
+
+footer {
+height: 126px;
+    min-height: 126px;
+
+    background: #E1E8F1;
+    font-family: 'Nunito', sans-serif;
+    z-index: 1000;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+ .calc-container {
+     width: 100%;
+display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+
+ }
+
+ .calc-body {
+     width: auto;
+     height: auto;
+     background-color: #EAEEF4;
+     padding: 40px;
+     margin: 0 auto;
+     position: relative;
+
+ } .calc-title {
+        width: 610px;
+        font-weight: 700;
+    font-size: 36px;
+        margin: 0 auto
+
+    }
+
+    .button-container {
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+    }
+    .button-changeTheme {
+        width: 80px;
+    }
+    .calc-chelka {
+        display: none;
+        height: 15px;
+        width: 150px;
+        background-color: white;
+        position: absolute;
+        top: 0px;
+        left:50%;
+        transform: translateX(-50%);
+        border-radius: 0 0 15px 15px;
+    }
+    .calc-chelka-niz {
+        display: none;
+
+        height: 5px;
+        width: 150px;
+        background-color: #9955f8;
+        position: absolute;
+        bottom: 10px;
+        left:50%;
+        transform: translateX(-50%);
+        /* border-radius: 0 0 15px 15px; */
+    }
+
+   .numpad-textarea {
+       height: 130px;
+       box-sizing: border-box;
+       width: 320px;
+       resize: none;
+       font-size: 50px;
+       padding: 0;
+       text-align: end;
+       /* align-items:end; */
+       vertical-align: bottom;
+       /* overflow:hidden; */
+   }
+
+   .numpad-container {
+font-size: 30px;
+   }
+
+   .numpad-row {
+           display: flex;
+           flex-direction: row;
+           height: 80px;
+   }
+
+   .numpad-row > button {
+       /*flex:1;*/
+       height: 80px;
+       width: 80px;
+       /* margin-right: 30px;
+       margin-bottom: 30px; */
+       /*margin-top: 30px;*/
+       font-size: 35px;
+       background-color: white;
+   }
+.numpad-row > button:last-child {
+    /* flex:1; */
+    height: 80px;
+    /* width: 160px; */
+    margin-right: 0px;
+    background-color: #1a376a;
+    color: white;
+}
+
+.numpad-row:first-child > button {
+    background-color: #1a376a;
+    color:white;
+}
+
+#total-button {
+    flex: 1;
+}
+
+.calc-body_flat {
+    padding: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #000;
+}
+.calc-body_mobile{
+    padding: 0px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 10px 10px  30px #000;
+    background: linear-gradient(135deg, #7d6df9, #8540f8);
+    height: 650px;
+    border: 10px solid #fff;
+}
+
+.calc-container_flat {
+    background: linear-gradient(45deg, #e66465, #9198e5);
+}
+.calc-container_mobile {
+    background: linear-gradient(-45deg, #b977e3, #7eb8f9);
+}
+
+.numpad-textarea_flat {
+    background: #424242;
+    color:#fff;
+    border-width: 0px;
+    padding: 10px 20px 0 0;
+}
+.numpad-textarea_mobile {
+    background: linear-gradient(135deg, #746af8, #69a6f9);
+    color:#fff;
+    border-width: 0px;
+    padding: 60px 30px 0 0;
+    height: 200px;
+}
+
+.number_flat {
+    background-color: #dbdbdb;
+    border-width: 1px;
+
+}
+.number_mobile {
+    background-color: #965ef1;
+    color:#fff;
+    border-radius: 50%;
+    border-width: 0px;
+    height: 70px;  
+    width: 70px;
+    margin: 5px;
+
+}
+
+.numberLast_flat {
+    background-color: #ea7f2f;
+}

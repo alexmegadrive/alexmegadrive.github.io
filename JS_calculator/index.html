@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор | Education Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/calc.js" defer></script>
+    <script src="scripts/change.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="button-container">
+        <button class="button-changeTheme" id="mobile">Mobile</button>
+        <button class="button-changeTheme" id="flat">Flat</button>
+        <button class="button-changeTheme" id="old">Old</button>
+    </div>
+    </header>
+ 
+<main>
+    
+    <div class="calc-container">
+
+        <div class="calc-title"></div>
+        <div class="calc-body">
+            <div class="calc-chelka"></div>
+            <div class="calc-chelka-niz"></div>
+            <textarea class="numpad-textarea"> </textarea>
+                <div class="numpad-container">
+                <div class="numpad-row">
+                    <button class="number number1row" onclick="cancelNumber()">AC</button>
+                    <button class="number number1row" onclick="Percentage()">%</button>
+                    <button class="number number1row" onclick="rootNumbers()">√</button>
+                    <button class="number numberLast" onclick="divideNumbers()">/</button>
+
+                </div> <div class="numpad-row">
+                    <button class="number" onclick="enterNumber(7)">7</button>
+                    <button class="number" onclick="enterNumber(8)">8</button>
+                    <button class="number" onclick="enterNumber(9)">9</button>
+                    <button  class="number numberLast" onclick="multiplyNumbers('*')">x</button>
+
+
+
+                </div> <div class="numpad-row">
+                    <button class="number" onclick="enterNumber(4)">4</button>
+                    <button class="number"  onclick="enterNumber(5)">5</button>
+                    <button class="number"  onclick="enterNumber(6)">6</button>
+                    <button class="number numberLast" onclick="minusNumbers()">-</button>
+
+                </div> 
+                <div class="numpad-row">
+                    <button class="number"  onclick="enterNumber(1)">1</button>
+                    <button class="number"  onclick="enterNumber(2)">2</button>
+                    <button class="number"  onclick="enterNumber(3)">3</button>
+                    <button class="number numberLast" onclick="sumNumbers()">+</button>
+
+
+                </div>
+                <div class="numpad-row">
+                    <button class="number" id="zero-button"  onclick="enterNumber(0)">0</button>
+                    <button class="number numberLast" id="total-button" onclick="Totals()">=</button>
+
+                </div>
+                </div>
+        </div>
+    </div>
+
+
+</main>
+</body>
+</html>
