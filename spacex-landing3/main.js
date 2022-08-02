@@ -9,29 +9,36 @@ let line;
 
 
 
-drawCircle();
-
-lineDraw(btnStartRect.right,btnStartRect.bottom-(btnStartRect.height/2),btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2), 'line--gradient1')
-lineDraw(btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2),planetCircleRect.left,planetCircleRect.bottom - (planetCircleRect.height/2),'line--gradient2')
-
+ 
+if (screen.width >= 1200) {
+    drawCircle();
+    lineDraw(btnStartRect.right,btnStartRect.bottom-(btnStartRect.height/2),btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2), 'line--gradient1')
+    lineDraw(btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2),planetCircleRect.left,planetCircleRect.bottom - (planetCircleRect.height/2),'line--gradient2')
+    
+    }
 
 
 
 window.addEventListener('resize', function(event) {
     
-btnStartRect = document.querySelector('.btn_start').getBoundingClientRect();
-newCircle = document.querySelector('.planet__circle')
-planetCircleRect = newCircle.getBoundingClientRect();
+  
+        btnStartRect = document.querySelector('.btn_start').getBoundingClientRect();
+        newCircle = document.querySelector('.planet__circle')
+        planetCircleRect = newCircle.getBoundingClientRect();
+        
+        const lines = document.querySelectorAll('.line')
+        
+        for (const line of lines) {
+            line.remove()
+        }
+        
+         lineDraw(btnStartRect.right,btnStartRect.bottom-(btnStartRect.height/2),btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2), 'line--gradient1')
+         lineDraw(btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2),planetCircleRect.left,planetCircleRect.bottom - (planetCircleRect.height/2),'line--gradient2')
+               }
 
-const lines = document.querySelectorAll('.line')
 
-for (const line of lines) {
-    line.remove()
-}
 
- lineDraw(btnStartRect.right,btnStartRect.bottom-(btnStartRect.height/2),btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2), 'line--gradient1')
- lineDraw(btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2),planetCircleRect.left,planetCircleRect.bottom - (planetCircleRect.height/2),'line--gradient2')
- }, true);
+);
 
 
  function drawCircle() {
