@@ -41,12 +41,13 @@ h1 {
 
 h1>div {
     width: fit-content;
-    background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
     background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
 h1>div>span:nth-child(1) {
+    background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
     text-transform: uppercase;
     font-family: 'Museosanscyrl700';
     font-size: 58px;
@@ -57,6 +58,8 @@ h1>div>span:nth-child(1) {
 }
 
 h1>div>span:nth-child(2) {
+    background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
+
     font-family: 'Museosanscyrl700';
     font-size: 25px;
     text-transform: lowercase;
