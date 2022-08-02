@@ -40,8 +40,10 @@ h1 {
 
 
 h1>span {
+    width: fit-content;
     background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
     background-clip: text;
+    
 
 }
 
