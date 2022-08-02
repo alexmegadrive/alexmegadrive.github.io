@@ -435,12 +435,16 @@ background: linear-gradient(to right, rgba(255, 255, 255, 0.327), white)
     }
     body {
         height: 100%;
-        width: 100%;
+        width: 100vw;
         padding: 0 0 100px;
     }
 
     header, .title__container  {
         padding-left: 70px;
+    }
+    header {
+        padding-right: 70px;
+
     }
 
 
