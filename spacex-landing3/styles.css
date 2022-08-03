@@ -491,7 +491,8 @@ h1>div>span:nth-child(2) {
     }
 
     .planet__container {
-        height: 400px;
+        height: 340px;
+        padding-top: 50px;
     }
 
     .img__planet {
