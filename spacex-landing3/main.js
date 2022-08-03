@@ -32,9 +32,12 @@ window.addEventListener('resize', function(event) {
             line.remove()
         }
         
-         lineDraw(btnStartRect.right,btnStartRect.bottom-(btnStartRect.height/2),btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2), 'line--gradient1')
-         lineDraw(btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2),planetCircleRect.left,planetCircleRect.bottom - (planetCircleRect.height/2),'line--gradient2')
-               }
+ if (screen.width >= 1200)
+ {
+       lineDraw(btnStartRect.right,btnStartRect.bottom-(btnStartRect.height/2),btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2), 'line--gradient1')
+       lineDraw(btnStartRect.right +70,planetCircleRect.bottom - (planetCircleRect.height/2),planetCircleRect.left,planetCircleRect.bottom - (planetCircleRect.height/2),'line--gradient2')
+ }
+          }
 
 
 
