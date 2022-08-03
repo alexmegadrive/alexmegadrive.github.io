@@ -48,11 +48,11 @@ h1>div {
 }
 
 h1>div>span:nth-child(1) {
-    background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
-/*     background: linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%); */
-    background: -o-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
-    background: -ms-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
-    background: -moz-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
+    background: -webkit-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 100%);
+/*     background: linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 100%); */
+    background: -o-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 100%);
+    background: -ms-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 100%);
+    background: -moz-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 100%);
 
     text-transform: uppercase;
     font-family: 'Museosanscyrl700';
@@ -64,11 +64,11 @@ h1>div>span:nth-child(1) {
 }
 
 h1>div>span:nth-child(2) {
-/*     background: linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%); */
-    background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
-    background: -o-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
-    background: -moz-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
-    background: -ms-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
+/*     background: linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 170%); */
+    background: -webkit-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 170%);
+    background: -o-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 170%);
+    background: -moz-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 170%);
+    background: -ms-linear-gradient(to right, #ffffff 0%, #ffffff 30%, #fd0000 170%);
 
     font-family: 'Museosanscyrl700';
     font-size: 25px;
