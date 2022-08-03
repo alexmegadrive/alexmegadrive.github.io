@@ -49,7 +49,7 @@ h1>div {
 
 h1>div>span:nth-child(1) {
     background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
-    background: linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
+/*     background: linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%); */
     background: -o-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
     background: -ms-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
     background: -moz-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 100%);
@@ -64,7 +64,7 @@ h1>div>span:nth-child(1) {
 }
 
 h1>div>span:nth-child(2) {
-    background: linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
+/*     background: linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%); */
     background: -webkit-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
     background: -o-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
     background: -moz-linear-gradient(45deg, #ffffff 0%, #ffffff 30%, #fd0000 170%);
@@ -255,7 +255,7 @@ h1>div>span:nth-child(2) {
     box-sizing: border-box;
     border: 1px solid transparent;
     border-image: -webkit-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
-    border-image: linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
+/*     border-image: linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%); */
     border-image: -o-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
     border-image: -moz-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
     border-image: -ms-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
@@ -352,7 +352,7 @@ h1>div>span:nth-child(2) {
 
 #element1 {
     background: -webkit-linear-gradient(135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
-    background: linear-gradient(135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
+/*     background: linear-gradient(135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%); */
     background: -o-linear-gradient(135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -moz-linear-gradient(135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -ms-linear-gradient(135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
@@ -361,7 +361,7 @@ h1>div>span:nth-child(2) {
 
 #element2 {
     background: -webkit-linear-gradient(45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
-        background: linear-gradient(45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
+/*         background: linear-gradient(45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%); */
     background: -o-linear-gradient(45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -moz-linear-gradient(45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -ms-linear-gradient(45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
@@ -370,7 +370,7 @@ h1>div>span:nth-child(2) {
 
 #element3 {
     background: -webkit-linear-gradient(-135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
-        background: linear-gradient(-135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
+/*         background: linear-gradient(-135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%); */
     background: -o-linear-gradient(-135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -moz-linear-gradient(-135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -ms-linear-gradient(-135deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
@@ -379,7 +379,7 @@ h1>div>span:nth-child(2) {
 
 #element4 {
     background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
-        background: linear-gradient(-45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
+/*         background: linear-gradient(-45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%); */
     background: -o-linear-gradient(-45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -moz-linear-gradient(-45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
     background: -ms-linear-gradient(-45deg, rgba(255, 255, 255) 0%, transparent 50%, transparent 90%);
@@ -450,7 +450,7 @@ h1>div>span:nth-child(2) {
 }
 
 .line--gradient1 {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.162), rgba(255, 255, 255, 0.327));
+/*     background: linear-gradient(to right, rgba(255, 255, 255, 0.162), rgba(255, 255, 255, 0.327)); */
     background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.162), rgba(255, 255, 255, 0.327));
     background: -o-linear-gradient(to right, rgba(255, 255, 255, 0.162), rgba(255, 255, 255, 0.327));
     background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0.162), rgba(255, 255, 255, 0.327));
@@ -459,7 +459,7 @@ h1>div>span:nth-child(2) {
 }
 
 .line--gradient2 {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.327), white);
+/*     background: linear-gradient(to right, rgba(255, 255, 255, 0.327), white); */
     background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.327), white);
     background: -o-linear-gradient(to right, rgba(255, 255, 255, 0.327), white);
     background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0.327), white);
