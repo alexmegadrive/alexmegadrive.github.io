@@ -254,11 +254,11 @@ h1>div>span:nth-child(2) {
     background: transparent;
     box-sizing: border-box;
     border: 1px solid transparent;
-    border-image: -webkit-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
+    border-image: -webkit-linear-gradient(135deg, #29538b 10%, transparent 50%, #577fb3 90%);
 /*     border-image: linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%); */
-    border-image: -o-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
-    border-image: -moz-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
-    border-image: -ms-linear-gradient(to left bottom, #29538b 10%, transparent 50%, #577fb3 90%);
+    border-image: -o-linear-gradient(135deg, #29538b 10%, transparent 50%, #577fb3 90%);
+    border-image: -moz-linear-gradient(135deg, #29538b 10%, transparent 50%, #577fb3 90%);
+    border-image: -ms-linear-gradient(135deg, #29538b 10%, transparent 50%, #577fb3 90%);
 
     border-image-slice: 1;
     transition: 0.5s;
